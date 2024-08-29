@@ -17,14 +17,15 @@ int main()
     vector<string> businessNames;
 
     cout << "\n\n====================";
-    cout << "\nBusiness Names Sort";
+    cout << "\nIt's Raining Strings";
     cout << "\n====================" << endl;
+    cout << "\nWelcome! This program will sort all business names provided.";
 
     cout << "\nWould you like to input a business name?";
     cout << "\nInput Y or N: ";
     getline(cin, userChoice);
 
-    while (userChoice == "Y" || userChoice == "y")
+    while (userChoice == "Y" || userChoice == "y" || userChoice == "Yes" || userChoice == "yes")
     {
         cout << "\nInput a business name: " << endl;
         getline(cin, busName);
