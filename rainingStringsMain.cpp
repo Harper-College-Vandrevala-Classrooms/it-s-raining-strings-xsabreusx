@@ -40,7 +40,7 @@ int main()
         cout << "\n\nEnter another name? Y or N: ";
         getline(cin, userChoice);
     }
-    cout << "\nProgram Completed. Good day!\n\n";
+    cout << "\nProgram Completed. Have a good day!\n\n";
 
     return 0;
 }
